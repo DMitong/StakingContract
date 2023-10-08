@@ -1,0 +1,12 @@
+Requirements:
+- Staking contract that only accepts ETH
+- ETH is automatically converted to WETH
+- Receipt(DMitongToken-WETH) tokens are minted to the depositor
+- Reward token is DMitongToken at an APR of 14%
+- Rewards are calculated based on the proportion of ETH deposited
+- Users can opt in for auto-compounding
+- Auto-compounding fee is 1% of WETH deposited
+- Auto-compounding can be triggered by anyone externally
+- Person who triggers auto-compounding gets a reward
+- Reward comes from the total auto-compounding fee of people in the pool
+- Withdrawals can be instant
